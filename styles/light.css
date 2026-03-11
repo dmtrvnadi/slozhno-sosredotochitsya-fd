@@ -9,4 +9,18 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: #FF8DCB;
+  --content-text-color: #353430;
+  --color-title: #FFC2E6;
+  --main-font-size: 18px;
+  --title-text-color: #353430;
+  --bg-color: #FFC2E6;
+  --bg-image: url("/images/cover-image-light.png");
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #F1B2CE;
+    --bg-image: url("/images/cover-image-light.png");
+  }
 }
