@@ -7,9 +7,10 @@
   --content-text-color: #F1B2CE;
   --color-title: #DB00FF;
   --main-font-size: 18px;
-  --title-text-color: #000028;
+  --title-text-color: #FF0070;
   --margin: 10px;
   --bg-color: #000028;
   --bg-image: url("/images/cover-image-dark.png");
   --color-transparent: rgba(255, 0, 112, 0.4);
+  --title-decor: #000028;
 }
