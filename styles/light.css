@@ -16,7 +16,7 @@
   --title-text-color: #353430;
   --bg-color: #FFC2E6;
   --bg-image: url("/images/cover-image-light.png");
-  .rec::after {
+  .rec {
   display: none;
   }
 }
