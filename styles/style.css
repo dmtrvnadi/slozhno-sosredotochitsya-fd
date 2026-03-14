@@ -17,7 +17,6 @@
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
   block-size: 100vh;
-  min-height: 668;
   padding: 10px;
 }
 
@@ -355,6 +354,7 @@
 @media (width >= 1024px) {
   .header {
     grid-template-rows: 1fr min-content 1fr;
+    margin-block-end: 30px;
   }
 
   .header__theme-menu {
@@ -380,7 +380,7 @@
   }
 
   .content {
-    margin-block-start: 5px;
+    margin-block-start: 0;
   }
 
   .content__subtitle {
@@ -396,7 +396,7 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
     justify-content: start;
-    margin-block-end: 40px;
+    margin-block-end: 36px;
   }
 
   .content__section-reason .content__title {
@@ -410,7 +410,7 @@
     grid-column: auto;
     max-width: 315px;
     padding: 0;
-    margin-inline-start: 6px;
+    margin-inline-start: 11px;
   }
 
   .content__section-reason .content__subtitle {
@@ -418,6 +418,15 @@
     margin-inline-start: 10px;
     margin-block-start: 0px;
   }
+
+  .content__section-reason .content__text {
+    margin-inline-start: 10px;
+  }
+
+  .content__section-images .content__subtitle {
+      margin-inline-start: 10px;
+      margin-block-start: 0;
+    }
 
   .content__image {
     display: block;
