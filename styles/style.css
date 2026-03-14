@@ -16,7 +16,8 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-height: 668;
   padding: 10px;
 }
 
@@ -207,7 +208,8 @@
 .footer {
   display: grid;
   align-items: center;
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-height: 668;
 }
 
 .footer__title {
