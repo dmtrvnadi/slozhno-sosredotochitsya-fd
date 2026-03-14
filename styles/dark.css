@@ -15,7 +15,10 @@
   --main-font-size: 18px;
   --title-text-color: #FF0070;
   --margin: 10px;
-  --bg-image: url("/images/cover-image-dark.png");
   --bg-color: #000028;
+  --bg-image: url("/images/cover-image-dark.png");
   --title-decor: #000028;
+  --title-bg-collor: #FF0070;
+  --rec-display: inline-block;
+  --rec-shadow: 0 0 4px 2px var(--accent-color);
 }
