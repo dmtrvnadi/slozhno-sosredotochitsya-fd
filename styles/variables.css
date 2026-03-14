@@ -12,4 +12,7 @@
   --bg-color: #000028;
   --bg-image: url("/images/cover-image-dark.png");
   --title-decor: #000028;
+  --title-bg-collor: #FF0070;
+  --rec-display: inline-block;
+  --rec-shadow: 0 0 4px 2px var(--accent-color);
 }
