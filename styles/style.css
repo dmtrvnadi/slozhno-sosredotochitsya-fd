@@ -116,6 +116,10 @@
   align-self: center;
 }
 
+.span {
+  display: block;
+}
+
 .title-decor {
   background-color: var( --title-bg-collor);
   font-weight: bold;
@@ -237,10 +241,6 @@
     max-inline-size: 364px;
     margin-block-end: 13px;
 
-  }
-
-  .span {
-    display: block;
   }
 
   .rec {
