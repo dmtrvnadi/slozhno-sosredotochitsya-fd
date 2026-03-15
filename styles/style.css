@@ -460,9 +460,8 @@
 
   .content__images-container {
   display: grid;
-  margin-inline: 20px; /* Центрируем или прижимаем сетку по гайдам макета */
+  margin-inline: 20px;
   gap: 20px;
-  /* Для 1024px лучше использовать точные высоты из Figma */
   grid-template-rows: 260px 315px 425px; 
 }
 
