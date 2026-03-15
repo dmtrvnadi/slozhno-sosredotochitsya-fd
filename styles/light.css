@@ -14,7 +14,7 @@
     --color-title: #FFC2E6;
     --main-font-size: 18px;
     --title-text-color: #353430;
-    --bg-image: url("/images/cover-image-light.png");
+    --bg-image: url("../images/cover-image-light.png");
     --bg-color: #fff1f7;
     --title-decor: #353430;
     --title-bg-collor: #FF8DCB;
@@ -30,7 +30,7 @@
     --color-title: #FFC2E6;
     --main-font-size: 18px;
     --title-text-color: #353430;
-    --bg-image: url("/images/cover-image-light.png");
+    --bg-image: url("../images/cover-image-light.png");
     --bg-color: #fff1f7;
     --title-decor: #353430;
     --title-bg-collor: #FF8DCB;
